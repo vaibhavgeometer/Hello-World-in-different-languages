@@ -1,64 +1,63 @@
-# Hello World in Different Languages
+# 🌍 Hello World in Different Languages
 
-A collection of "Hello World" programs across various programming languages, organized for easy reference and testing. This repository serves as a simple guide to basic syntax and execution steps for different environments.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue.svg)
 
-## 📁 Repository Structure
-
-Each language has its own dedicated directory containing the source code and any necessary project files:
-
-- **[C](./C)**: `c.c`
-- **[C++](./C++)**: `cpp.cpp`
-- **[C#](./C-Sharp)**: `Program.cs` (.NET Project)
-- **[Java](./Java)**: `java.java`
-- **[JavaScript](./JavaScript)**: `js.js`
-- **[Python](./Python)**: `py.py`
+A curated collection of **"Hello World"** programs across various programming languages. This repository is designed as a foundational reference for developers to explore basic syntax, boilerplate code, and execution steps across different environments.
 
 ---
 
-## 🚀 How to Run
+## 📂 Repository Structure
 
-Follow the instructions below to run the programs on your local machine.
+Each language is organized into its own directory containing the source code and any necessary configuration files.
 
-### 📋 General Setup
-
-1. **Open a Terminal**:
-   - **Windows**: Press `Win + R`, type `cmd` or `powershell`, and press Enter.
-   - **macOS/Linux**: Open the "Terminal" app.
-
-2. **Navigate to the Repository**:
-
-   ```bash
-   cd Hello-World-in-different-languages
-   ```
+| Language | Directory | Primary File |
+| :--- | :--- | :--- |
+| 🐍 **Python** | [`./Python`](./Python) | `py.py` |
+| 🟨 **JavaScript** | [`./JavaScript`](./JavaScript) | `js.js` |
+| ☕ **Java** | [`./Java`](./Java) | `java.java` |
+| 🔷 **C** | [`./C`](./C) | `c.c` |
+| 💠 **C++** | [`./C++`](./C++) | `cpp.cpp` |
+| 🎯 **C# (.NET)** | [`./C-Sharp`](./C-Sharp) | `cs.cs` |
 
 ---
 
-### 🐍 Python
+## 🚀 Getting Started
 
-**Prerequisite**: [Python 3.x](https://www.python.org/)
+Follow these instructions to run the programs on your local machine.
+
+### 📋 Prerequisites
+
+Ensure you have the following installed:
+
+- **Python 3.x**
+- **Node.js**
+- **JDK 11+**
+- **GCC / G++**
+- **.NET SDK**
+
+### 💻 Execution Guide
+
+#### 🐍 Python
 
 ```bash
 cd Python
 python py.py
 ```
 
-### 🟨 JavaScript (Node.js)
-
-**Prerequisite**: [Node.js](https://nodejs.org/)
+#### 🟨 JavaScript (Node.js)
 
 ```bash
 cd JavaScript
 node js.js
 ```
 
-### ☕ Java
-
-**Prerequisite**: [JDK 11+](https://www.oracle.com/java/technologies/downloads/)
+#### ☕ Java
 
 ```bash
 cd Java
-
-# Option A: Direct Run
+# Option A: Direct Run (JDK 11+)
 java java.java
 
 # Option B: Compile and Run
@@ -66,29 +65,23 @@ javac java.java
 java Java
 ```
 
-### 🔷 C
-
-**Prerequisite**: A C compiler like [GCC](https://gcc.gnu.org/)
+#### 🔷 C
 
 ```bash
 cd C
 gcc c.c -o c_program
-./c_program  # Use c_program.exe on Windows
+./c_program  # Windows: c_program.exe
 ```
 
-### 💠 C++
-
-**Prerequisite**: A C++ compiler like [G++](https://gcc.gnu.org/)
+#### 💠 C++
 
 ```bash
 cd C++
 g++ cpp.cpp -o cpp_program
-./cpp_program  # Use cpp_program.exe on Windows
+./cpp_program  # Windows: cpp_program.exe
 ```
 
-### 🎯 C# (.NET)
-
-**Prerequisite**: [.NET SDK](https://dotnet.microsoft.com/download)
+#### 🎯 C# (.NET)
 
 ```bash
 cd C-Sharp
@@ -98,18 +91,32 @@ dotnet run
 *Alternatively, using the C# compiler (`csc`):*
 
 ```bash
-csc Program.cs
-Program.exe
+csc cs.cs
+cs.exe
 ```
 
 ---
 
 ## 🛠️ Troubleshooting
 
-- **Command Not Found**: Ensure the relevant language runtime or compiler is installed and added to your system's `PATH`.
-- **Permissions**: On macOS/Linux, you may need to grant execution permissions: `chmod +x <program_name>`.
-- **Version Issues**: Some scripts might require specific versions (e.g., Python 3 vs Python 2).
+- **Command Not Found**: Ensure the compiler/runtime is added to your system's `PATH`.
+- **Permissions**: On Linux/macOS, use `chmod +x <binary>` if execution is denied.
+- **SDK Versions**: Some languages (like C#) require specific SDKs to build project files.
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ for the Developer Community

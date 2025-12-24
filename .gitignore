@@ -33,6 +33,23 @@ hs_err_pid*
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.ipynb_checkpoints
+
+# .NET / C#
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
 
 # System
 Thumbs.db
@@ -41,3 +58,7 @@ Thumbs.db
 # IDEs
 .vscode/
 .idea/
+.vs/
+*.swp
+*.swo
+*.swn
