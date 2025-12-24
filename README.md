@@ -1,134 +1,115 @@
 # Hello World in Different Languages
 
-This repository contains "Hello World" programs written in various programming languages. It serves as a simple reference for syntax differences across languages.
+A collection of "Hello World" programs across various programming languages, organized for easy reference and testing. This repository serves as a simple guide to basic syntax and execution steps for different environments.
 
-## Supported Languages
+## 📁 Repository Structure
 
-The following languages are currently included in the `Hello World` directory:
+Each language has its own dedicated directory containing the source code and any necessary project files:
 
-- **C**: `c.c`
-- **C++**: `cpp.cpp`
-- **C#**: `cs.cs`
-- **Java**: `java.java`
-- **JavaScript**: `js.js`
-- **Python**: `py.py`
-
----
-
-# How to Run the Programs
-
-This guide provides detailed instructions on how to run the "Hello World" programs in various programming languages included in this repository.
-
-## Table of Contents
-1. [General Setup](#general-setup)
-2. [Python](#python)
-3. [JavaScript (Node.js)](#javascript)
-4. [Java](#java)
-5. [C](#c)
-6. [C++](#c-plus-plus)
-7. [C#](#c-sharp)
+- **[C](./C)**: `c.c`
+- **[C++](./C++)**: `cpp.cpp`
+- **[C#](./C-Sharp)**: `Program.cs` (.NET Project)
+- **[Java](./Java)**: `java.java`
+- **[JavaScript](./JavaScript)**: `js.js`
+- **[Python](./Python)**: `py.py`
 
 ---
 
-## 1. General Setup <a name="general-setup"></a>
+## 🚀 How to Run
+
+Follow the instructions below to run the programs on your local machine.
+
+### 📋 General Setup
 
 1. **Open a Terminal**:
    - **Windows**: Press `Win + R`, type `cmd` or `powershell`, and press Enter.
    - **macOS/Linux**: Open the "Terminal" app.
-2. **Navigate to the Directory**:
-   Use the `cd` command to navigate to the `Hello World` folder where the files are located.
+
+2. **Navigate to the Repository**:
+
    ```bash
-   cd "Hello World"
+   cd Hello-World-in-different-languages
    ```
 
 ---
 
-## 2. Python <a name="python"></a>
+### 🐍 Python
 
-**Prerequisites**: [Python](https://www.python.org/) must be installed.
-Check by running: `python --version` or `python3 --version`
+**Prerequisite**: [Python 3.x](https://www.python.org/)
 
-**Command**:
 ```bash
+cd Python
 python py.py
 ```
-*(Note: On systems with both Python 2 and 3, you might need to use `python3 py.py`)*
 
----
+### 🟨 JavaScript (Node.js)
 
-## 3. JavaScript (Node.js) <a name="javascript"></a>
+**Prerequisite**: [Node.js](https://nodejs.org/)
 
-**Prerequisites**: [Node.js](https://nodejs.org/) must be installed.
-Check by running: `node -v`
-
-**Command**:
 ```bash
+cd JavaScript
 node js.js
 ```
 
----
+### ☕ Java
 
-## 4. Java <a name="java"></a>
+**Prerequisite**: [JDK 11+](https://www.oracle.com/java/technologies/downloads/)
 
-**Prerequisites**: [JDK (Java Development Kit)](https://www.oracle.com/java/technologies/downloads/) must be installed.
-Check by running: `javac -version` and `java -version`
-
-**Commands**:
-You can run it directly (Java 11+) or compile it first.
-
-**Option A (Direct Run - recommended for single files)**:
 ```bash
+cd Java
+
+# Option A: Direct Run
 java java.java
-```
 
-**Option B (Compile and Run)**:
-```bash
+# Option B: Compile and Run
 javac java.java
 java Java
 ```
-*(Note: The class name is 'Java', which is case-sensitive)*
+
+### 🔷 C
+
+**Prerequisite**: A C compiler like [GCC](https://gcc.gnu.org/)
+
+```bash
+cd C
+gcc c.c -o c_program
+./c_program  # Use c_program.exe on Windows
+```
+
+### 💠 C++
+
+**Prerequisite**: A C++ compiler like [G++](https://gcc.gnu.org/)
+
+```bash
+cd C++
+g++ cpp.cpp -o cpp_program
+./cpp_program  # Use cpp_program.exe on Windows
+```
+
+### 🎯 C# (.NET)
+
+**Prerequisite**: [.NET SDK](https://dotnet.microsoft.com/download)
+
+```bash
+cd C-Sharp
+dotnet run
+```
+
+*Alternatively, using the C# compiler (`csc`):*
+
+```bash
+csc Program.cs
+Program.exe
+```
 
 ---
 
-## 5. C <a name="c"></a>
+## 🛠️ Troubleshooting
 
-**Prerequisites**: A C compiler like [GCC](https://gcc.gnu.org/) (MinGW for Windows) must be installed.
-Check by running: `gcc --version`
+- **Command Not Found**: Ensure the relevant language runtime or compiler is installed and added to your system's `PATH`.
+- **Permissions**: On macOS/Linux, you may need to grant execution permissions: `chmod +x <program_name>`.
+- **Version Issues**: Some scripts might require specific versions (e.g., Python 3 vs Python 2).
 
-**Commands**:
-1. **Compile**: `gcc c.c -o c_program`
-2. **Run**:
-   - **Windows**: `c_program.exe`
-   - **macOS/Linux**: `./c_program`
+## 📄 License
 
----
-
-## 6. C++ <a name="c-plus-plus"></a>
-
-**Prerequisites**: A C++ compiler like [G++](https://gcc.gnu.org/) must be installed.
-Check by running: `g++ --version`
-
-**Commands**:
-1. **Compile**: `g++ cpp.cpp -o cpp_program`
-2. **Run**:
-   - **Windows**: `cpp_program.exe`
-   - **macOS/Linux**: `./cpp_program`
-
----
-
-## 7. C# <a name="c-sharp"></a>
-
-**Prerequisites**: [.NET SDK](https://dotnet.microsoft.com/download) or a C# compiler like `csc` (included with Visual Studio or Build Tools).
-Check by running: `csc /version` or `dotnet --version`
-
-**Commands (using csc)**:
-1. **Compile**: `csc cs.cs`
-2. **Run**: `cs.exe`
-*(Note: The C# program in this repo includes `Console.ReadLine()`, so it will wait for you to press Enter before closing.)*
-
----
-
-## Troubleshooting
-- **'Command not found'**: Ensure the language/compiler is installed and added to your system's `PATH`.
-- **File not found**: Ensure you are inside the `Hello World` directory.
-- **Permissions**: On macOS/Linux, you might need to give execution permission to compiled files: `chmod +x program_name`.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
