@@ -2,6 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
+![Languages](https://img.shields.io/badge/Languages-6+-blue.svg)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-blue.svg)
 
 A curated collection of **"Hello World"** programs across various programming languages. This repository is designed as a foundational reference for developers to explore basic syntax, boilerplate code, and execution steps across different environments.
@@ -18,8 +19,8 @@ Each language is organized into its own directory containing the source code and
 | 🟨 **JavaScript** | [`./JavaScript`](./JavaScript) | `js.js` |
 | ☕ **Java** | [`./Java`](./Java) | `java.java` |
 | 🔷 **C** | [`./C`](./C) | `c.c` |
-| 💠 **C++** | [`./C++`](./C++) | `cpp.cpp` |
-| 🎯 **C# (.NET)** | [`./C-Sharp`](./C-Sharp) | `cs.cs` |
+| 💠 **C++** | [`./Cpp`](./Cpp) | `cpp.cpp` |
+| 🎯 **C# (.NET)** | [`./Csharp`](./Csharp) | `cs.cs` |
 
 ---
 
@@ -31,30 +32,27 @@ Follow these instructions to run the programs on your local machine.
 
 Ensure you have the following installed:
 
-- **Python 3.x**
-- **Node.js**
-- **JDK 11+**
-- **GCC / G++**
-- **.NET SDK**
+- **Python 3.x**: [python.org](https://www.python.org/)
+- **Node.js**: [nodejs.org](https://nodejs.org/)
+- **JDK 11+**: [adoptium.net](https://adoptium.net/)
+- **GCC / G++**: [gcc.gnu.org](https://gcc.gnu.org/)
+- **.NET SDK**: [dotnet.microsoft.com](https://dotnet.microsoft.com/)
 
 ### 💻 Execution Guide
 
 #### 🐍 Python
-
 ```bash
 cd Python
 python py.py
 ```
 
 #### 🟨 JavaScript (Node.js)
-
 ```bash
 cd JavaScript
 node js.js
 ```
 
 #### ☕ Java
-
 ```bash
 cd Java
 # Option A: Direct Run (JDK 11+)
@@ -66,33 +64,29 @@ java Java
 ```
 
 #### 🔷 C
-
 ```bash
 cd C
 gcc c.c -o c_program
-./c_program  # Windows: c_program.exe
+./c_program  # Windows: .\c_program.exe
 ```
 
 #### 💠 C++
-
 ```bash
-cd C++
+cd Cpp
 g++ cpp.cpp -o cpp_program
-./cpp_program  # Windows: cpp_program.exe
+./cpp_program  # Windows: .\cpp_program.exe
 ```
 
 #### 🎯 C# (.NET)
-
 ```bash
-cd C-Sharp
+cd Csharp
 dotnet run
 ```
 
 *Alternatively, using the C# compiler (`csc`):*
-
 ```bash
 csc cs.cs
-cs.exe
+.\cs.exe
 ```
 
 ---
@@ -107,11 +101,11 @@ cs.exe
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. **Fork** the Project
+2. **Create** your Feature Branch (`git checkout -b feature/AddLanguage`)
+3. **Commit** your Changes (`git commit -m 'Add [Language] Hello World'`)
+4. **Push** to the Branch (`git push origin feature/AddLanguage`)
+5. **Open** a Pull Request
 
 ## 📄 License
 
@@ -119,4 +113,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ for the Developer Community
+<p align="center">Made with ❤️ for the Developer Community</p>
